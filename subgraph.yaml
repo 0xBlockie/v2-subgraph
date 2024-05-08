@@ -6,7 +6,7 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: Arbitrum-one
+    network: arbitrum-one
     source:
       address: '0xf1D7CC64Fb4452F05c498126312eBE29f30Fbcf9'
       abi: Factory
@@ -34,7 +34,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: Arbitrum-one
+    network: arbitrum-one
     source:
       abi: Pair
     mapping:
