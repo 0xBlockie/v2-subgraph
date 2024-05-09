@@ -12,7 +12,7 @@
     "create-local": "graph create davekaj/uniswap --node http://127.0.0.1:8020",
     "deploy-local": "graph deploy davekaj/uniswap --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
     "deploy": "graph deploy 0xBlockie/v2-subgraph /24-uni-v2-arbitrum-one-main --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/",
-    "deploy-staging": "graph deploy 0xBlockie/v2-subgraph/24-uni-v2-arbitrum-one-main --ipfs https://api.staging.thegraph.com/ipfs/ --node https://api.staging.thegraph.com/deploy/",
+    "deploy-staging": "graph deploy 0xBlockie/v2-subgraph /decentralised-exchanges-and-blockchains/uniswap/uniswap_v2/arbitrum-one-mainnet/v2-subgraph/24-uni-v2-arbitrum-one-main --ipfs https://api.staging.thegraph.com/ipfs/ --node https://api.staging.thegraph.com/deploy/",
     "watch-local": "graph deploy graphprotocol/Uniswap2 --watch --debug --node http://127.0.0.1:8020/ --ipfs http://localhost:5001"
   },
   "devDependencies": {
